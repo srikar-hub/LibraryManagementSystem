@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Home</title>
+<title>About Us</title>
 <style>
     body {
         font-family: Arial, sans-serif;
@@ -32,46 +32,23 @@
         color: #f2f2f2;
         padding: 14px 16px;
     }
-    .hero {
-        background: url('library.jpg') no-repeat center center/cover;
-        height: 400px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        text-align: center;
-    }
-    .hero-content h2 {
-        font-size: 48px;
-        margin: 0;
-    }
-    .hero-content p {
-        font-size: 24px;
-        margin: 20px 0;
-    }
-    .btn {
-        background-color: #4CAF50;
-        color: white;
-        padding: 10px 20px;
-        text-decoration: none;
-        font-size: 18px;
-        border-radius: 5px;
-    }
-    .features {
-        padding: 50px 20px;
-        background-color: #f4f4f4;
-    }
-    .features .container {
-        display: flex;
-        justify-content: space-around;
-    }
-    .feature {
-        text-align: center;
+    .container {
         padding: 20px;
     }
-    .feature h3 {
-        font-size: 24px;
-        margin-bottom: 10px;
+    .about-content {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background-color: #f4f4f4;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .about-content h2 {
+        text-align: center;
+    }
+    .about-content p {
+        text-align: justify;
+        line-height: 1.6;
     }
     footer {
         background-color: #333;
@@ -118,28 +95,18 @@
     </div>
 </div>
 
-<div class="hero">
-    <div class="hero-content">
-        <h2>Welcome to Our Library</h2>
-        <p>Manage your books and resources efficiently.</p>
-        <a href="borrowBook.jsp" class="btn">Get Started</a>
-    </div>
-</div>
-
-<div class="features">
-    <div class="container">
-        <div class="feature">
-            <h3>Easy Management</h3>
-            <p>Keep track of books and resources with ease.</p>
-        </div>
-        <div class="feature">
-            <h3>User-Friendly Interface</h3>
-            <p>Navigate through our system effortlessly.</p>
-        </div>
-        <div class="feature">
-            <h3>24/7 Access</h3>
-            <p>Access the library from anywhere, anytime.</p>
-        </div>
+<div class="container">
+    <div class="about-content">
+        <h2>About Our Library Management System</h2>
+        <p>
+            Welcome to our Library Management System, a comprehensive solution designed to simplify and enhance the management of library resources. Our system provides a user-friendly interface that allows users to effortlessly borrow, return, and keep track of books. With 24/7 access, you can explore our vast catalog and manage your account from anywhere at any time.
+        </p>
+        <p>
+            Our mission is to make library management more efficient and accessible. We understand the importance of having an organized system for managing books and resources, which is why we have incorporated features that cater to both librarians and users. From easy management tools to real-time updates, our system is built to support the dynamic needs of modern libraries.
+        </p>
+        <p>
+            Whether you are a student, educator, or avid reader, our Library Management System is here to support your literary journey. Thank you for choosing our platform, and we hope you enjoy a seamless and enriching experience.
+        </p>
     </div>
 </div>
 
